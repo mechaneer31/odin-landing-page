@@ -2,18 +2,25 @@
     font-family: Roboto, "Times New Roman", sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     flex-direction: row;
+    background-color: #1F2937;
 }
 
 .nav-links {
     flex-direction: row;
+    font-size: 18px;
+    color: #E5E7EB;
 }
+
 
 .hero-section{
     flex-direction: row;
+    background-color: #1F2937;
 }
 
 .hero-left {
@@ -21,7 +28,18 @@ header {
 }
 
 .hero-right{
+    background-color: chartreuse;                  /*  DEBUGGING */
+}
 
+#hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+#hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .random-information-section{
@@ -52,6 +70,19 @@ header {
 
 }
 
+.call-to-action-button{
+    background-color: #3882F6;
+}
+
 footer {
     align-items: center;
 }
+
+.dark-color {
+    background-color: #1F2937;
+}
+
+.gray-color {
+    background-color: #E5E7EB;
+}
+
