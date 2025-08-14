@@ -4,7 +4,23 @@
     flex-direction: column;
 }
 
+header {
+    flex-direction: row;
+}
+
+.nav-links {
+    flex-direction: row;
+}
+
 .hero-section{
+    flex-direction: row;
+}
+
+.hero-left {
+
+}
+
+.hero-right{
 
 }
 
@@ -17,5 +33,5 @@
 }
 
 .call-to-action-section {
-    
+
 }
