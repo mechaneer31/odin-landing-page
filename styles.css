@@ -25,13 +25,17 @@ header {
 .hero-section{
     flex-direction: row;
     background-color: #1F2937;
+    padding: 100px;
 }
 
 .hero-left {
-
+    flex: 1, 1, auto;
+    width: 400px;
 }
 
 .hero-right{
+    flex: 1, 1, auto;
+    width: 400px;
     background-color: chartreuse;                  /*  DEBUGGING */
 }
 
@@ -47,20 +51,43 @@ header {
 }
 
 .random-information-section{
+    padding: 100px;
 }
 
 .random-info-header {
     align-items: center;
 }
 
+.random-info-header-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #1F2937;
+}
 
 .random-info-box-layout{
     flex-direction: row;
     justify-content: center;
 }
 
+.random-info-box {
+    width: 80px;
+    height: 80px;
+    border: 2px solid blue;
+    border-radius: 10%;
+    padding: 50px;
+    margin-left: 10px;
+    margin-right:10px;
+    margin-bottom: 5px;
+}
+
+.random-info-subtext {
+    margin-left: 10px;
+    margin-right:10px;
+}
+
 .quote-section {
     background-color: #E5E7EB;
+    padding: 100px;
 }
 
 #quote-text {
