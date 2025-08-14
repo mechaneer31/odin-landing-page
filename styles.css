@@ -17,6 +17,10 @@ header {
     color: #E5E7EB;
 }
 
+.logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
 
 .hero-section{
     flex-direction: row;
@@ -49,13 +53,21 @@ header {
     align-items: center;
 }
 
+
 .random-info-box-layout{
     flex-direction: row;
     justify-content: center;
 }
 
 .quote-section {
+    background-color: #E5E7EB;
+}
 
+#quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
 }
 
 .call-to-action-section {
@@ -76,6 +88,8 @@ header {
 
 footer {
     align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
 
 .dark-color {
