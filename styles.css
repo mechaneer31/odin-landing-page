@@ -41,5 +41,13 @@ header {
 }
 
 .call-to-action-section {
+    flex-direction: row;
+}
+
+.call-to-action-right {
+
+}
+
+.call-to-action-right {
 
 }
