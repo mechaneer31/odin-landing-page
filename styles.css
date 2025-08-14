@@ -25,7 +25,15 @@ header {
 }
 
 .random-information-section{
+}
 
+.random-info-header {
+    align-items: center;
+}
+
+.random-info-box-layout{
+    flex-direction: row;
+    justify-content: center;
 }
 
 .quote-section {
