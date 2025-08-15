@@ -31,12 +31,16 @@ header {
 .hero-left {
     flex: 1, 1, auto;
     width: 400px;
+    padding: 20px;
 }
 
 .hero-right{
     flex: 1, 1, auto;
     width: 400px;
-    background-color: chartreuse;                  /*  DEBUGGING */
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;          
 }
 
 #hero-main-text {
@@ -99,13 +103,20 @@ header {
 
 .call-to-action-section {
     flex-direction: row;
+    margin: 50px 150px 50px 150px;
+    padding: 50px;
+    background-color: #3882F6;
+}
+
+.call-to-action-left {
+    color: white;
+    justify-content: flex-end;
+    flex: 1 1 auto;
+
 }
 
 .call-to-action-right {
-
-}
-
-.call-to-action-right {
+    flex: 1 1 auto;
 
 }
 
@@ -125,13 +136,6 @@ footer {
     align-items: center;
     background-color: #1F2937;
     color: #E5E7EB;
-}
-
-.dark-color {
-    background-color: #1F2937;
-}
-
-.gray-color {
-    background-color: #E5E7EB;
+    padding: 30px 20px 30px 20px;
 }
 
